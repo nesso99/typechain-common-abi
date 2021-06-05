@@ -1,6 +1,6 @@
 {
   "name": "typechain-common-abi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "common smart contracts in typechain",
   "homepage": "https://github.com/nesso99/typechain-common-abi",
   "repository": {
@@ -14,6 +14,7 @@
   "types": "types/index.d.ts",
   "files": [
     "/contracts/**/*.sol",
+    "/contract-types/**/*",
     "/dist/**/*",
     "/types/**/*"
   ],
