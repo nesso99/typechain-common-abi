@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# editors
+.vscode
+
+# hardhat
+artifacts/
+cache/
+contract-types/
+
+# typescript
+dist/
+types/
