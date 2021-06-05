@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "description": "common smart contracts in typechain",
   "homepage": "https://github.com/nesso99/typechain-common-abi",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/",
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nesso99/typechain-common-abi.git"
