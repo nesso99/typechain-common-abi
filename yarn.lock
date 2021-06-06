@@ -411,6 +411,11 @@
     "@ethersproject/properties" "^5.3.0"
     "@ethersproject/strings" "^5.3.0"
 
+"@openzeppelin/contracts@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.1.0.tgz#baec89a7f5f73e3d8ea582a78f1980134b605375"
+  integrity sha512-TihZitscnaHNcZgXGj9zDLDyCqjziytB4tMCwXq0XimfWkAjBYyk5/pOsDbbwcavhlc79HhpTEpQcrMnPVa1mw==
+
 "@sentry/core@5.30.0":
   version "5.30.0"
   resolved "https://registry.yarnpkg.com/@sentry/core/-/core-5.30.0.tgz#6b203664f69e75106ee8b5a2fe1d717379b331f3"
@@ -509,7 +514,7 @@
   resolved "https://registry.yarnpkg.com/@typechain/ethers-v5/-/ethers-v5-7.0.0.tgz#cadb5262b3827d1616c21f4ba86a36a71269bd7e"
   integrity sha512-ykNaqYcQ1yC928x8bogL9LECUg0osfqqHCKBhP7qbGlNfvC/bvTiIfnjQUgXUYWEJRx5r0Y78vcKMo8F3sJTBA==
 
-"@typechain/truffle-v5@^5.0.0":
+"@typechain/truffle-v5@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@typechain/truffle-v5/-/truffle-v5-5.0.0.tgz#01ab526b3986e06f8f2720d4a88dd11b6d0fe11d"
   integrity sha512-iyXay2ImCB6ATNvkW5w6ojm0Si0kU4kb7g480O/PzSNOYO1b2MovZHrQbVS+KBMrRlcy7UaFTdrVPpg8j3vUZQ==

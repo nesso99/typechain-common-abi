@@ -1,6 +1,6 @@
 {
   "name": "typechain-common-abi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "common smart contracts in typechain",
   "homepage": "https://github.com/nesso99/typechain-common-abi",
   "repository": {
@@ -21,12 +21,13 @@
   "scripts": {
     "clean": "rm -rf artifacts cache",
     "build": "yarn hardhat compile && yarn generate-contract-types && yarn compile-ts",
-    "generate-contract-types": "rm -rf contract-types && typechain --target=web3-v1 './artifacts/contracts/**/*[!dbg].json' --out-dir contract-types/web3 && typechain --target=truffle-v5 './artifacts/contracts/**/*[!dbg].json' --out-dir contract-types/truffle && typechain --target=ethers-v5 './artifacts/contracts/**/*[!dbg].json' --out-dir contract-types/ethers",
+    "generate-contract-types": "rm -rf contract-types artifacts/build-info && typechain --target=web3-v1 './artifacts/**/*[!dbg].json' --out-dir contract-types/web3 && typechain --target=truffle-v5 './artifacts/**/*[!dbg].json' --out-dir contract-types/truffle && typechain --target=ethers-v5 './artifacts/**/*[!dbg].json' --out-dir contract-types/ethers",
     "compile-ts": "rm -rf types dist && mkdir -p types/contract-types && rsync -R contract-types/**/*.d.ts ./types && tsc",
     "prepublish": "yarn build"
   },
   "license": "MIT",
   "devDependencies": {
+    "@openzeppelin/contracts": "4.1.0",
     "@typechain/ethers-v5": "7.0.0",
     "@typechain/truffle-v5": "5.0.0",
     "@typechain/web3-v1": "3.0.0",
